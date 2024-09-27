@@ -1,10 +1,3 @@
-var typed = new Typed(".multiple-text", {
-    strings: ['Front-end Developer', 'Content Writer', 'Cosmonaut'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
-})
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -33,6 +26,7 @@ window.onscroll = () => {
             });
         };
     });
+
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
 
@@ -40,4 +34,13 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
+
+
+var typed = new Typed('.multiple-text', {
+    strings: ["Frontend Developer", "Content Writer", "Cosmonaut", "Artist"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
 
