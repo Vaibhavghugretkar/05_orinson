@@ -1,4 +1,4 @@
-# Project Title
+# Portfolio Website
 
 ## Overview
 This is a portfilio website showcasing my frontend skills and projects.This also includes my internship projects which I recently completed.
